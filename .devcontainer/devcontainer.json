@@ -1,0 +1,51 @@
+{
+    "name": "DataLab Environment",
+    "hostRequirements": {
+        "cpus": 4
+      },
+    "build": {
+      "dockerfile": "Dockerfile",
+    },
+    "settings" : {
+        // backgound color for editor
+    "workbench.colorTheme": "One Dark Pro",
+    // icon
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.inlineSuggest.enabled": true,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "workbench.colorCustomizations": {
+        "editor.background": "#1C3029",
+        "activityBar.background": "#202A2F",
+        "sideBar.background": "#202A2F",
+        "titleBar.activeBackground": "#3D3C3D",
+        "tab.activeBackground": "#263238"
+        
+    },
+    "editor.rulers": [88],
+    // font
+    "editor.fontSize": 14,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": true
+    },
+    "markdown.marp.enableHtml": true,
+    "markdown.marp.themes": [
+        "./themes/gradient.css",
+        "./themes/beam.css"
+    ],
+  },
+  "extensions": [
+    "ms-toolsai.jupyter",
+    "ms-python.python",
+    "REditorSupport.r",
+    "GitHub.copilot",
+    "hediet.vscode-drawio",
+    "pkief.material-icon-theme",
+    "marp-team.marp-vscode",
+    "zhuangtongfa.Material-theme",
+    "MS-vsliveshare.vsliveshare"
+  ],
+  "git.autofetch": true,
+}
